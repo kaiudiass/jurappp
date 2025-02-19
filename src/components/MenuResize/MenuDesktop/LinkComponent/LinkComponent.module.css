@@ -1,0 +1,136 @@
+
+
+.menuLinks{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    color: #464255;
+    
+   
+}
+
+.Links{
+    background-color: #3b3b3b;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: rgb(141, 141, 141);
+   
+   
+    
+    
+}
+
+.LinkExtendido{
+    width: 100%;
+  
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+    position: relative;
+    text-decoration: none;
+    
+ 
+   
+   
+    
+  
+}
+
+.LinkExtendido:hover{
+  background-color: #6400b010;  
+}
+
+
+
+.linkinfo{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left:30px ;
+  padding: 10px;
+  width: 100%;
+  padding-left: 20px;
+  border-radius: 8px;
+  gap:10px ;
+ 
+}
+
+.name{
+
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+color: #464255;
+
+}
+
+.icon{
+    font-size: 23px;
+    display: flex;
+    color: #3b3b3b;
+  
+   
+
+}
+
+
+
+.trianguloEsquerda {
+    width: 7px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #8D00B0;
+    
+ 
+  }
+
+
+  .activeButton{
+
+    background-color: #6400b03a;
+    color: #8D00B0;
+    
+   
+
+  }
+
+  .activeButton .name{
+
+    color: #8D00B0;
+    font-weight: bold;
+
+  }
+
+  .activeButton .icon{
+
+    color: #8D00B0;
+    
+
+  }
+
+  .activeBorder{
+    border: 0;
+  }
+
+  
+@media (max-width: 1024px) {  
+  .linkinfo{
+    margin-left: 5px;
+  }
+
+}
+
+@media (max-height: 600px) {  
+  .menuLinks{
+    padding: 0px 0px;
+  }
+
+}
