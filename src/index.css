@@ -10,3 +10,27 @@
 html{
   background-color: #F4F4F4;
 }
+
+/* Customizar a barra de rolagem no Chrome, Safari e Edge */
+::-webkit-scrollbar {
+  width: 4px; /* Largura da barra de rolagem vertical */
+  height: 5px;
+  
+}
+
+/* Cor do fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Cor de fundo da trilha */
+}
+
+/* Cor da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #c300ff88; /* Cor da barra */
+  border-radius: 10px; /* Deixar a barra redonda */
+}
+
+/* Adiciona um efeito quando o usuário passar o mouse sobre a barra */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Cor ao passar o mouse */
+}
+

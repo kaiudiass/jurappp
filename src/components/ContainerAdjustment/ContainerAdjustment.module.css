@@ -2,3 +2,18 @@
     margin-left: 250px;
     height: 200vh;
 }
+
+
+@media (max-width: 1024px) {  
+ 
+    .ContainerAdjustment{
+        margin-left:200px;
+    }
+}
+
+@media (max-width: 600px) {  
+    .ContainerAdjustment{
+        margin-left: 0px;
+        height: 200vh;
+    }
+  }

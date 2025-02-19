@@ -8,7 +8,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-   
+    top: 0;
     align-items: center;
     gap: 30px;
     z-index: 999;

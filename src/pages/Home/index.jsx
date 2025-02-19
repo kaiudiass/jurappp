@@ -3,6 +3,7 @@ import style from './Home.module.css'
 import MenuDesktop from '../../components/MenuResize/MenuDesktop'
 import HeaderDesktop from '../../components/HeaderResize/HeaderDesktop'
 import ContainerAdjustment from '../../components/ContainerAdjustment'
+import ContainerCard from './ContainerCard'
 
 const Home = () => {
   return (
@@ -11,6 +12,8 @@ const Home = () => {
 
     <ContainerAdjustment>
     <HeaderDesktop/>
+    <ContainerCard/>
+
 
     </ContainerAdjustment>
     
