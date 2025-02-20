@@ -103,6 +103,10 @@
 
 
 @media (max-width: 600px) {  
+
+    .HeaderDesktop{
+        height: 55px;
+    }
     .HeaderInfoImg{
         width: 30px;
         height: 30px;
@@ -135,3 +139,5 @@
         height: 30px;
     }
   }
+
+
