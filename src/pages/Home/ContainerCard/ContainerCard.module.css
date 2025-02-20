@@ -4,6 +4,58 @@
     /* background-color: aqua; */
     margin-top: 120px;
     display: flex;
-    margin-left: 70px;
+    padding-left: 70px;
     gap: 20px;
 }
+
+
+@media (max-width: 1759px) { 
+    .ContainerCard{
+        padding-left: 20px;
+    }
+ }
+
+ 
+ @media (max-width: 1673px) { 
+    .ContainerCard{
+        padding-left: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+
+ @media (max-width: 1673px) {
+    /* margin-left: 0; */
+  }
+
+  @media (max-width: 1216px) {
+    .ContainerCard{
+        gap: 10px;
+        padding: 0px 20px;
+    }
+    
+   }
+
+@media (max-width: 880px) { 
+
+    .ContainerCard{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 600px) { 
+
+    .ContainerCard{
+        flex-wrap: nowrap;
+        margin-top: 90px;
+    }
+    
+}
+
+@media (max-width: 556px) {
+    .ContainerCard{
+        flex-wrap: wrap;
+    }
+ }
+

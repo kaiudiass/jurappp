@@ -29,5 +29,153 @@
 }
 
 .CardImg{
+    width: 90px;
 
 }
+
+.CardImg img{
+    width: 100%;
+    
+
+}
+@media (max-width: 1655px) { 
+    .Card{
+        width: 280px;
+    }
+}
+
+@media (max-width: 1463px) { 
+    .Card{
+        width: 250px;
+        padding: 28px 0px;
+    }
+
+    .CardImg{
+        width: 70px;
+    
+    }
+    
+    
+}
+
+@media (max-width: 1342px) { 
+
+    .Card{
+        width: 220px;
+        padding: 24px 0px;
+    }
+}
+
+@media (max-width: 1216px) { 
+
+    .Card{
+        width: 200px;
+        padding: 23px 0px;
+        
+    }
+    .CardImg{
+        width: 60px;
+    
+    }
+
+    .CardInfoNumber{
+        font-size: 30px;
+    }
+    .CardInfoName{
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 1096px) { 
+    .Card{
+        width: 170px;
+        padding: 20px 0px;
+        gap: 11px;
+       
+    }
+    .CardImg{
+        width: 50px;
+    
+    }
+
+}
+
+@media (max-width: 958px) { 
+    .Card{
+        width: 150px;
+        padding: 20px 0px;
+        gap: 11px;
+       
+    }
+
+    .CardInfoNumber{
+        font-size: 25px;
+    }
+
+    .CardImg{
+        width: 50px;
+    
+    }
+
+}
+
+@media (max-width: 880px) { 
+    .Card{
+        width: 130px;
+        padding: 16px 0px;
+        gap: 11px;
+       
+    }
+
+    .CardInfoNumber{
+        font-size: 25px;
+    }
+
+    .CardImg{
+        width: 40px;
+    
+    }
+
+}
+
+@media (max-width: 830px) { 
+
+    .ContainerCard{
+        flex-wrap: wrap;
+
+    }
+
+    .Card{
+        width: 120px;
+        padding: 16px 0px;
+        gap: 11px;
+       
+    }
+
+    .CardInfoName{
+        font-size: 11px;
+    }
+    
+}
+
+@media (max-width: 556px) { 
+
+    .ContainerCard{
+        flex-wrap: wrap;
+
+    }
+
+    .Card{
+        width: 45%;
+        padding: 24px 9px;
+        gap: 11px;
+       
+    }
+
+    .CardInfoName{
+        font-size: 11px;
+    }
+    
+}
+
