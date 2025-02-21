@@ -7,7 +7,13 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color:#F4f4f4 ;
+    z-index: 997;
+   
+}
+
+.backgroundHeaderScroll{
+    background-color: #f4f4f4;
+    
 }
 
 .HeaderContainer{
@@ -101,12 +107,112 @@
 
 
 
-
 @media (max-width: 600px) {  
 
+  
     .HeaderDesktop{
         height: 55px;
+        
+        right: auto;
+        justify-content: space-between;
+        padding: 0px 12px;
+       top: 0;
+        background-color: transparent;
+        z-index: 999;
+
     }
+
+    .backgroundHeaderScroll{
+        background-color: #f4f4f4;
+        
+    }
+  
+
+    .HeaderContainer{
+        margin: 0;
+    }
+
+
+
+    .cabecalhoScrolled{
+        background-color: #1B1C2D;
+    }
+
+
+    .containerMenu{
+     
+        display: flex;
+        align-items: center;
+        width: auto;
+        position: relative;
+      
+     
+        
+    }
+
+
+    
+    .btnMenu {
+    
+        width: 30px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        transform: rotate(180deg);
+        transition-duration: .6s;
+     
+      
+
+    }
+    
+    .linha {
+        width: 30px;
+        height: 3px;
+        display: block;
+        margin: 8px auto;
+        position: relative;
+        transition: 0.2s;
+        border-radius: 2px;
+       
+        background-color: #8c00b0;
+       
+    
+    }
+    
+    .linhameio {
+        width: 90%;
+    
+    }
+    
+    
+    .botaoX {
+        transform: rotate(-90deg);
+        transition-duration: 0.6s;
+    
+    
+    }
+
+    
+    .botaoX .linha:nth-child(1) {
+        transform: translateY(11px) rotate(-45deg);
+    
+        ;
+      
+    
+    }
+    
+    .botaoX .linha:nth-child(2) {
+        opacity: 0;
+    
+    }
+    
+    .botaoX .linha:nth-child(3) {
+        transform: translateY(-11px) rotate(45deg);
+    
+    }
+
+
     .HeaderInfoImg{
         width: 30px;
         height: 30px;
@@ -115,10 +221,7 @@
         gap: 10px;
     }
 
-    .HeaderContainer{
-        margin-right: 10px;
-        
-    }
+  
 
     .HeaderButtonContainer{
         gap: 10px;
