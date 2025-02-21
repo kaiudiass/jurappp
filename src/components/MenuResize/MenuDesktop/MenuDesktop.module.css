@@ -11,7 +11,10 @@
     top: 0;
     align-items: center;
     gap: 30px;
-    z-index: 999;
+    z-index: 998;
+  
+   
+   
 }
 
 .menuLinks{
@@ -42,6 +45,8 @@
 }
 
 
+
+
 @media (max-width: 1024px) {  
  
     .MenuDesktop{
@@ -53,9 +58,15 @@
     }
 }
 
+
+
 @media (max-height: 600px) {  
     .MenuDesktop{
         padding: 20px 0px;
+        z-index: 99;
     }
   
   }
+
+
+  
