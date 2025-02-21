@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import style from './MenuDesktop.module.css'
 import LinkComponent from './LinkComponent'
 import { FaGear } from "react-icons/fa6";
@@ -12,10 +12,41 @@ import { FaSheetPlastic } from "react-icons/fa6";
 import { BiMoneyWithdraw } from "react-icons/bi";
 import { GiReceiveMoney } from "react-icons/gi";
 import { IoAnalytics } from "react-icons/io5";
+import MenuContext from '../../../Context/MenuContext';
+import { motion } from "framer-motion";
+
 const MenuDesktop = () => {
 
+  const { menuAtivo} = useContext(MenuContext);
+  const [larguraTela, setLarguraTela] = useState(window.innerWidth);
+
+
+  useEffect(() => {
+    const handleResize = () => {
+      setLarguraTela(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  if (!menuAtivo && larguraTela <= 600) {
+    return null;
+  }
+
   return (
-    <div className={style.MenuDesktop}>
+     
+      <motion.div className={style.MenuDesktop}
+      initial={{ x: "-100%" }} // Posição inicial
+      animate={{ x: menuAtivo || larguraTela ? 0 : "-100%" }} // Baseado no estado
+      exit={{ x: "-100%" }} // Posição ao sair
+      transition={{
+        duration: 0.3, // Tempo igual para entrada e saída
+        
+      }}
+      
+    >
+    
 
         <div className={style.LogoMenuDesktop}>
         <img src={MainLogo} alt="" />
@@ -35,7 +66,8 @@ const MenuDesktop = () => {
 
 
 
-    </div>
+    
+     </motion.div>
   )
 }
 
