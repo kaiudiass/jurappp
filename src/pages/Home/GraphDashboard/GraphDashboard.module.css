@@ -1,0 +1,43 @@
+
+
+
+.Graph {
+width: 100%; 
+height: 440px;
+max-height: 100%;
+
+
+
+}
+
+
+@media (max-width: 1689px) {
+    .Graph {
+ 
+        width: 100%; 
+      height: 350px;
+      
+      
+      }
+
+}
+
+
+@media (max-width: 600px) {
+
+
+    .Graph {
+ 
+        width: 100%; 
+      height: 330px;
+      
+      
+      }
+
+
+
+}
+
+
+
+
