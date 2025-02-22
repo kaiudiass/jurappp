@@ -1,0 +1,46 @@
+.ContainerManage{
+width: 100%;
+max-width: 430px;
+background-color: #fff;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+padding: 30px 40px;
+
+}
+
+.ContainerManagetext{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.ManageTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.ManageSubtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ACACAC;
+}
+
+.GraphContainer{
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@media (max-width: 1216px) { 
+
+    .ContainerManage{
+        width: 100%;
+        max-width: none;
+    }
+    
+}
