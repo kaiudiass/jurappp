@@ -1,6 +1,7 @@
 .ContainerAdjustment{
     margin-left: 250px;
-    height: 200vh;
+    z-index: 990;
+    
 }
 
 
@@ -14,6 +15,6 @@
 @media (max-width: 600px) {  
     .ContainerAdjustment{
         margin-left: 0px;
-        height: 200vh;
+       
     }
   }
