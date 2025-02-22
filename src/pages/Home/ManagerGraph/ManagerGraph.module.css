@@ -1,0 +1,34 @@
+.ManagerGraph{
+    
+     display: flex;
+     height: 300px;
+     width:300px;
+     align-items: center;
+     justify-content: center;
+ 
+ 
+
+}
+
+
+@media (max-width: 1673px) { 
+     .ContainerInfo{
+         padding-left: 0px;
+         align-items: center;
+         justify-content: center;
+         padding: 0px 40px;
+         
+     }
+
+     .ManagerGraph{
+    
+          display: flex;
+          height: 254px;
+          width:200px;
+          align-items: center;
+          justify-content: center;
+     
+      
+     
+     }
+  }
