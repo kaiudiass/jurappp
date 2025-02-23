@@ -56,7 +56,7 @@ const MenuDesktop = () => {
       
         <div className={style.menuLinks}>
             <LinkComponent  to="/" name="Dashboard" icon={<RxDashboard/>}  > </LinkComponent>
-                <LinkComponent  to="/5" name="Clientes" icon={<MdOutlinePersonSearch />}  > </LinkComponent>
+                <LinkComponent  to="/clientes" name="Clientes" icon={<MdOutlinePersonSearch />}  > </LinkComponent>
                 <LinkComponent  to="/2" name="Empréstimos" icon={<BiMoneyWithdraw/>}  > </LinkComponent>
                 <LinkComponent  to="/3" name="Pagamentos" icon={<GiReceiveMoney />}  > </LinkComponent>
                 <LinkComponent  to="/4" name="Analytics" icon={<IoAnalytics/>}  > </LinkComponent>
