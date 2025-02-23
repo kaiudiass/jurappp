@@ -34,20 +34,21 @@ const MenuDesktop = () => {
     return null;
   }
 
+  
+
   return (
      
       <motion.div className={style.MenuDesktop}
-      initial={{ x: "-100%" }} // Posição inicial
-      animate={{ x: menuAtivo || larguraTela ? 0 : "-100%" }} // Baseado no estado
-      exit={{ x: "-100%" }} // Posição ao sair
+      initial={{ x: larguraTela > 600 ? 0 : "-100%" }} 
+      animate={{ x: menuAtivo || larguraTela ? 0 : "-100%" }} 
+      exit={{ x:  larguraTela > 600 ? 0 : "-100%" }} 
       transition={{
-        duration: 0.3, // Tempo igual para entrada e saída
+        duration: 0.3, 
         
       }}
       
     >
     
-
         <div className={style.LogoMenuDesktop}>
         <img src={MainLogo} alt="" />
 
