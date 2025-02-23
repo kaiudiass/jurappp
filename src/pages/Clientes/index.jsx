@@ -1,8 +1,11 @@
 import React from 'react'
+import MenuDesktop from '../../components/MenuResize/MenuDesktop'
 
 const Clientes = () => {
   return (
-    <div>Clientes</div>
+    <div>
+        <MenuDesktop/>
+    </div>
   )
 }
 
