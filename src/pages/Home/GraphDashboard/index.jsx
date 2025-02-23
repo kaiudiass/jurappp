@@ -28,11 +28,11 @@ const GraphDashboard = () => {
     },
     series: [{
         name: "INVESTIMENTO",
-        data: [1, 15, 26, 20, 33, 67]
+        data: [1, 15, 26, 20, 33, 40]
       },
       {
         name: " RETORNO",
-        data: [3, 33, 21, 42, 19, 32]
+        data: [3, 33, 21, 42, 19, 30]
       },
     
     ],
