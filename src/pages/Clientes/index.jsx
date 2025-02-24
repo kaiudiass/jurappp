@@ -3,6 +3,8 @@ import MenuDesktop from '../../components/MenuResize/MenuDesktop'
 import ContainerAdjustment from '../../components/ContainerAdjustment'
 import HeaderDesktop from '../../components/HeaderResize/HeaderDesktop'
 import ButtonContainer from './ButtonContainer'
+import SeachContainer from './SeachContainer'
+import ContainerClientList from './ContainerClientList'
 
 const Clientes = () => {
   return (
@@ -11,6 +13,8 @@ const Clientes = () => {
         <ContainerAdjustment>
         <HeaderDesktop/>
         <ButtonContainer/>
+        <SeachContainer/>
+        <ContainerClientList/>
 
         </ContainerAdjustment>
     </div>
