@@ -8,6 +8,7 @@ export const MenuProvider = ({children}) =>{
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [scrolled, setScrolled] = useState(false);
   const [menuAtivo, setMenuAtivo] = useState(false);
+   const [larguraTela, setLarguraTela] = useState(window.innerWidth);
 
 
   console.log(menuAtivo)
@@ -68,6 +69,7 @@ export const MenuProvider = ({children}) =>{
     };
   }, []);
 
+
   useEffect(() => {
     if ( menuAtivo ) {
       document.body.style.overflow = "hidden"; // Bloqueia o scroll
@@ -80,10 +82,21 @@ export const MenuProvider = ({children}) =>{
 }, [ menuAtivo ])
 
 
+  useEffect(() => {
+    const handleResize = () => {
+      setLarguraTela(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+
+
 
 
     return(
-        <MenuContext.Provider value={{ isMobile, setIsMobile, menuAtivo, scrolled, setScrolled, alternarMenu ,scrollToSection}}>
+        <MenuContext.Provider value={{larguraTela, setLarguraTela,isMobile, setIsMobile, menuAtivo, scrolled, setScrolled, alternarMenu ,scrollToSection}}>
             {children}
         </MenuContext.Provider>
 

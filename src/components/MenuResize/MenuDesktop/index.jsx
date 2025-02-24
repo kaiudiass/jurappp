@@ -17,24 +17,13 @@ import { motion } from "framer-motion";
 
 const MenuDesktop = () => {
 
-  const { menuAtivo} = useContext(MenuContext);
-  const [larguraTela, setLarguraTela] = useState(window.innerWidth);
+  const { menuAtivo, larguraTela} = useContext(MenuContext);
 
-
-  useEffect(() => {
-    const handleResize = () => {
-      setLarguraTela(window.innerWidth);
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   if (!menuAtivo && larguraTela <= 600) {
-    return null;
+   return null;
   }
 
-  
 
   return (
      
