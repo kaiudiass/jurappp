@@ -4,6 +4,7 @@ import { GoGear } from "react-icons/go";
 import { RiNotification2Line } from "react-icons/ri";
 import imgCliente from '../../../assets/fotocliente.jpg'
 import MenuContext from '../../../Context/MenuContext';
+import { Link } from 'react-router-dom';
 
 const HeaderDesktop = () => {
 
@@ -45,7 +46,7 @@ const HeaderDesktop = () => {
           <div className={style.LinhaVertical}></div>
         </div>
 
-        <div className={style.HeaderInfo}>
+        <Link to="/profile" className={style.HeaderInfo}>
           <div className={style.HeaderInfoName}>
             {/* receberar nome da pessoa pelo context */}
             <p>Olá, <span>Kaio</span></p>
@@ -56,7 +57,7 @@ const HeaderDesktop = () => {
 
           </div>
 
-        </div>
+        </Link>
 
       </div>
     </div>
