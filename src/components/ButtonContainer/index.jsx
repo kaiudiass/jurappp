@@ -3,7 +3,7 @@ import styles from './ButtonContainer.module.css';
 import { FaPlus } from "react-icons/fa";
 import { TfiReload } from "react-icons/tfi";
 
-const ButtonContainer = () => {
+const ButtonContainer = ({nome}) => {
   return (
     <div className={styles.ButtonContainer}>
 
@@ -13,7 +13,7 @@ const ButtonContainer = () => {
         
         <div className={styles.ButtonCreateClient}>
         
-          <p> <span><FaPlus/></span>CRIAR CLIENTE</p>
+          <p> <span><FaPlus/></span>{nome}</p>
 
         </div>
       
