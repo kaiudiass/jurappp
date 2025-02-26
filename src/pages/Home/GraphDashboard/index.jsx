@@ -19,7 +19,7 @@ const GraphDashboard = () => {
         opacity: 1,
       },
       toolbar: {
-        show: false  // Isso remove o "hamburger" e a barra de ferramentas
+        show: false  
       }
     },
     stroke: {
