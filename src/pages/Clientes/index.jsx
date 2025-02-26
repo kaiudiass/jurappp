@@ -2,8 +2,8 @@ import React from 'react'
 import MenuDesktop from '../../components/MenuResize/MenuDesktop'
 import ContainerAdjustment from '../../components/ContainerAdjustment'
 import HeaderDesktop from '../../components/HeaderResize/HeaderDesktop'
-import ButtonContainer from './ButtonContainer'
-import SeachContainer from './SeachContainer'
+import ButtonContainer from '../../components/ButtonContainer'
+import SeachContainer from '../../components/SeachContainer'
 import ContainerClientList from './ContainerClientList'
 
 const Clientes = () => {
@@ -12,7 +12,7 @@ const Clientes = () => {
         <MenuDesktop/>
         <ContainerAdjustment>
         <HeaderDesktop/>
-        <ButtonContainer/>
+        <ButtonContainer nome={"CRIAR CLIENTE"}/>
         <SeachContainer/>
         <ContainerClientList/>
 
