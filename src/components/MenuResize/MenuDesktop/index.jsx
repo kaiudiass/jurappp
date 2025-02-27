@@ -14,6 +14,7 @@ import { GiReceiveMoney } from "react-icons/gi";
 import { IoAnalytics } from "react-icons/io5";
 import MenuContext from '../../../Context/MenuContext';
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 
 const MenuDesktop = () => {
 
@@ -37,19 +38,18 @@ const MenuDesktop = () => {
       }}
       
     >
-    
-        <div className={style.LogoMenuDesktop}>
+        <Link to={"/"} className={style.LogoMenuDesktop}>
         <img src={MainLogo} alt="" />
 
-        </div>
+        </Link>
 
       
         <div className={style.menuLinks}>
             <LinkComponent  to="/" name="Dashboard" icon={<RxDashboard/>}  > </LinkComponent>
                 <LinkComponent  to="/clientes" name="Clientes" icon={<MdOutlinePersonSearch />}  > </LinkComponent>
                 <LinkComponent  to="/emprestimo" name="Empréstimos" icon={<BiMoneyWithdraw/>}  > </LinkComponent>
-                <LinkComponent  to="/3" name="Pagamentos" icon={<GiReceiveMoney />}  > </LinkComponent>
-                <LinkComponent  to="/4" name="Analytics" icon={<IoAnalytics/>}  > </LinkComponent>
+                <LinkComponent  to="/pagamento" name="Pagamentos" icon={<GiReceiveMoney />}  > </LinkComponent>
+                <LinkComponent  to="/analise" name="Analytics" icon={<IoAnalytics/>}  > </LinkComponent>
            
 
             </div>
