@@ -26,6 +26,8 @@
     font-size: 14px;
     outline: none;
   }
+
+  
   
   .searchButton {
     display: flex;
@@ -93,6 +95,10 @@
        
         max-width: 300px;
     
+      }
+
+      .InputSeach input::placeholder{
+      font-size: 12px;
       }
       
     
