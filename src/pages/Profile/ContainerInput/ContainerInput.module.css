@@ -2,15 +2,21 @@
     margin-top: 70px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 40px;
     padding: 0px 70px;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .inputField {
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 600px;
+    /* max-width: 600px; */
     background: #aaaaaa28;
     border-radius: 8px;
     padding: 16px 8px;
@@ -24,8 +30,21 @@
 
 }
 
+.inputPair input {
+    padding-left:10px ;
+    
+
+
+}
+
 .inputPair > div {
     flex: 1;
+}
+
+.inputPair label{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 @media (max-width: 880px) { 
@@ -40,12 +59,18 @@
         margin-bottom: 150px;
     }
 
+    .inputPair label{
+        padding-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
    
     
 }
 
 
-@media (max-width: 6000px) { 
+@media (max-width: 600px) { 
     .formGroup{
         padding: 0px 30px;
     }
