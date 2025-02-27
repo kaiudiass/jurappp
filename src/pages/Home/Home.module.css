@@ -4,5 +4,13 @@
     
     min-height: 100%;
     background-color: #F4F4F4;
+    margin-bottom: 130px;
  
+}
+
+@media (max-width: 600px) { 
+    .home{
+        margin-bottom: 130px;
+    }
+
 }
