@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import MenuDesktop from '../../components/MenuResize/MenuDesktop'
 import ContainerAdjustment from '../../components/ContainerAdjustment'
 import HeaderDesktop from '../../components/HeaderResize/HeaderDesktop'
 import ContainerProfileInfo from './ContainerProfileInfo'
 import ContainerInput from './ContainerInput'
 
+
+
 const Profile = () => {
+ 
+  
+
+
+
+
+
+
   return (
     <div >
          <MenuDesktop/>
@@ -13,7 +23,7 @@ const Profile = () => {
         <ContainerAdjustment>
         <HeaderDesktop/>
         <ContainerProfileInfo/>
-        <ContainerInput/>
+        <ContainerInput />
         
 
 
