@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import styles from './ContainerProfileInfo.module.css'
 import imgCliente from '../../../assets/fotocliente.jpg'
+import FormProfileContext from '../../../Context/FormProfileContext'
 
 const ContainerProfileInfo = () => {
+  const {handleEditClick, isEditing, handleSaveClick, stateSave } =  useContext(FormProfileContext)
+
+
+
+
   return (
     <div className={styles.ContainerProfileInfo}>
       <div  className={styles.ContainerInfo}>
@@ -22,8 +28,8 @@ const ContainerProfileInfo = () => {
       </div>
 
       <div className={styles.ContainerBtn}>
-        <div className={styles.ButtonEdit}>
-          <p>Editar</p>
+        <div className={styles.ButtonEdit} onClick={isEditing ? handleSaveClick : handleEditClick} >
+       { stateSave ? <div className={styles.Loader}></div> : <p>{isEditing ? "Salvar" : "Editar" }</p> } 
 
         </div>
 
