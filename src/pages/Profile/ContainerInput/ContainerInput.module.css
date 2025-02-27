@@ -73,6 +73,14 @@
 @media (max-width: 600px) { 
     .formGroup{
         padding: 0px 30px;
+        gap: 20px;
     }
+
+    .inputPair {
+        gap: 20px;}
+
+        .inputContainer{
+            gap: 3px;
+        }
 
 }
