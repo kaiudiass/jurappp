@@ -13,7 +13,7 @@ const Clientes = () => {
         <ContainerAdjustment>
         <HeaderDesktop/>
         <ButtonContainer nome={"CRIAR CLIENTE"}/>
-        <SeachContainer/>
+        <SeachContainer searchplace={"Nome, Telefone, situação"}/>
         <ContainerClientList/>
 
         </ContainerAdjustment>

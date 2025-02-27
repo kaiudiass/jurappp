@@ -14,7 +14,7 @@ const Loans = () => {
         <ContainerAdjustment>
         <HeaderDesktop/>
         <ButtonContainer nome={"CRIAR EMPRÉSTIMO"}/>
-        <SeachContainer/>
+        <SeachContainer searchplace={"Nome, situação, valor emprestado"}/>
         <ContainerLoansList/>
 
         </ContainerAdjustment>
