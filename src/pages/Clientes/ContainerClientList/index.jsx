@@ -9,7 +9,7 @@ const ClientList = () => {
   const { menuAtivo, larguraTela} = useContext(MenuContext);
 
   const clients = [
-    { nome: 'Kaio Dias ', endereco: 'Eudes Mendes', telefone: '33998774422', ultimaAtualizacao: '13/10/2003', situacao: 'Ativo' },
+    { nome: 'Kaio Dias', endereco: 'Eudes Mendes', telefone: '33998774422', ultimaAtualizacao: '13/10/2003', situacao: 'Ativo' },
     { nome: 'Maria Silva', endereco: 'Rua A', telefone: '33987654321', ultimaAtualizacao: '10/02/2025', situacao: 'Inativo' },
     { nome: 'José Oliveira', endereco: 'Rua B', telefone: '33876543210', ultimaAtualizacao: '15/01/2024', situacao: 'Ativo' },
     { nome: 'Ana Souza', endereco: 'Rua C', telefone: '33765432109', ultimaAtualizacao: '05/05/2023', situacao: 'Ativo' },
