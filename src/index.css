@@ -13,7 +13,7 @@ html{
 
 
 ::-webkit-scrollbar {
-  width: 4px; /* Largura da barra de rolagem vertical */
+  width: 4px; 
   height: 5px;
   
 }
