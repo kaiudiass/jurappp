@@ -11,7 +11,7 @@ html{
   background-color: #F4F4F4;
 }
 
-/* Customizar a barra de rolagem no Chrome, Safari e Edge */
+
 ::-webkit-scrollbar {
   width: 4px; /* Largura da barra de rolagem vertical */
   height: 5px;
