@@ -1,6 +1,6 @@
 .Card{
     width: 330px;
-    background-color: rgb(255, 255, 255);
+    background-color: #222222;
     border-radius: 15px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
     display: flex;
@@ -17,7 +17,7 @@
 
 .CardInfoName{
     font-family: Arial, Helvetica, sans-serif;
-    color: #464255;
+    color: #ffffff;
    
 }
 
@@ -25,7 +25,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 40px;
-    color: #464255;
+    color: #ffffff;
 }
 
 .CardImg{

@@ -36,7 +36,7 @@ const GraphDashboard = () => {
       },
     
     ],
-    colors: ["#FF5B5B", '#8D00B0'],
+    colors: ["#FF5B5B", '#00B035'],
  
 
     markers: {

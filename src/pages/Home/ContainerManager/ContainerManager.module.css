@@ -1,7 +1,7 @@
 .ContainerManage{
 width: 100%;
 max-width: 430px;
-background-color: #fff;
+background-color: #222222;
 border-radius: 10px;
 display: flex;
 flex-direction: column;
@@ -19,12 +19,13 @@ padding: 30px 40px;
 .ManageTitle{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color:white;
     
 }
 
 .ManageSubtitle{
     font-family: Arial, Helvetica, sans-serif;
-    color: #ACACAC;
+    color: #c2c2c2;
 }
 
 .GraphContainer{

@@ -31,7 +31,7 @@ function ManagerGraph() {
           }
           
         ]}
-        colors={['#FF5B5B', '#6400B0']}
+        colors={['#FF5B5B', '#00B035']}
       />
     </div>
   );

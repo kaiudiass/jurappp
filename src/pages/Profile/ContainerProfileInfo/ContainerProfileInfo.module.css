@@ -3,7 +3,7 @@
     display: flex;
     /* padding-left: 70px; */
     gap: 20px;
-
+    color: #ffffff;
     justify-content: space-between;
     padding: 0px 120px;
    
@@ -62,12 +62,12 @@ justify-content: center;
 
 .TextEmail{
     font-size: 20px;
-    color: #707070;
+    color: #ffffff;
 }
 
 
 .ContainerInfoTextId{
-    color: #707070;
+    color: #ffffff;
 }
 
 
@@ -79,7 +79,7 @@ justify-content: center;
 
 
 .ButtonEdit{
-    background-color: #8D00B0 ;
+    background-color: #00B035 ;
     border-radius: 8px;
      padding: 15px 50px;
      display: flex;
@@ -164,17 +164,17 @@ justify-content: center;
     
     .TextEmail{
         font-size: 15px;
-        color: #707070;
+        color: #ffffff;
     }
     
     
     .ContainerInfoTextId{
-        color: #707070;
+        color: #ffffff;
         font-size: 15px;
     }
 
     .ButtonEdit{
-        background-color: #8D00B0 ;
+        background-color: #00B035 ;
         border-radius: 8px;
          padding: 15px 30px;
        
@@ -234,7 +234,7 @@ justify-content: center;
             }
     
             .ButtonEdit{
-                background-color: #8D00B0 ;
+                background-color: #00B035 ;
                 border-radius: 8px;
                  padding: 15px 90px;
                
@@ -281,7 +281,7 @@ justify-content: center;
         }
 
         .ButtonEdit{
-            background-color: #8D00B0 ;
+            background-color: #00B035 ;
             border-radius: 8px;
              padding: 15px 90px;
            
@@ -297,12 +297,12 @@ justify-content: center;
 
         .TextEmail{
             font-size: 13px;
-            color: #707070;
+            color: #ffffff;
         }
         
         
         .ContainerInfoTextId{
-            color: #707070;
+            color: #ffffff;
             font-size: 12px;
         }
 
