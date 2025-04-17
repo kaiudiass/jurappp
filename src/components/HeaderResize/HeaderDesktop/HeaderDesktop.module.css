@@ -103,8 +103,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(255, 255, 255, 0);
+    border: 2px solid rgba(255, 255, 255, 0);
     overflow: hidden; 
+    background-color: #00B035;
   
 
 }
@@ -225,9 +226,11 @@
     .HeaderInfoImg{
         width: 30px;
         height: 30px;
+        
     }
     .HeaderContainer{
         gap: 10px;
+        
     }
 
   
