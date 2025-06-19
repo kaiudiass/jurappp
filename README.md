@@ -1,5 +1,9 @@
 # Jurappp - Gerenciamento de Devedores
 
+
+![Banner](src/assets/imgreadme.png)
+
+
 ## 📑 Descrição
 
 O **Jurappp** é uma aplicação front-end desenvolvida para auxiliar pessoas que emprestam dinheiro a ter um controle mais eficiente de seus devedores. Com uma interface intuitiva, o sistema permite o gerenciamento de clientes, empréstimos e visualização de informações financeiras de forma clara e organizada, proporcionando maior controle sobre as finanças.
